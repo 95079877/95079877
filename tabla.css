@@ -1,0 +1,177 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'serif';
+}
+/INICIA LA PARTE DEL ENCABEZADO Y DEL LOGO EL IHER/
+#linea{
+width: 100%;
+height: 5px;
+background: #FFD700;
+}
+
+#encabezado{
+width: 150px;
+height: 133px;
+border: 0px solid;
+background: #20B2AA;
+}
+
+#centro{
+width: 100%;
+overflow: hidden;
+background:#FFCC99;
+height: 200vh;
+}
+
+#mapa{
+overflow: hidden;
+background:#99FFF;
+height: 200vh;
+}
+
+#formulario{
+overflow: hidden;
+background:#339966;
+height: 200px;
+}
+
+#encabezado #logo {
+width: 500px;
+height: auto;
+border: 0px solid;
+float: left;
+}
+
+#encabezado #logo h2{
+color: #fff;
+}
+.imagen{
+width: 100px;
+height: auto;
+margin-top: 20px;
+float: left;
+margin-right: 15px;
+margin-left: 20px;
+border-radius: 50px;
+}
+
+/*FINALIZA LA PARTE DEL ENCABEZADO Y DEL LOGO IHER*/
+
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES */
+#encabezado .menu{
+width: 850px;
+float: right;
+margin-top: 40px;
+text-align: center;
+border: 0px solid;
+font-size: 25px;
+}
+
+nav ul{
+list-style: none;
+padding: 0;
+}
+
+nav li{
+line-height: 2.5rem;
+position: relative;
+}
+
+.menu ul{
+position: absolute;
+}
+
+nav a{
+color:#fff;
+display: block;
+text-decoration: none;
+transition: .4s;
+padding: 10px 20px;
+}
+
+nav a:hover{
+background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+float: right;
+font-size: 17px;
+}
+
+
+/*menú parte primer nivel*/
+.menu{
+background: #20B2AA;
+display: table;
+height: auto;
+}
+
+.menu >li{
+float: left;
+}
+
+/*menu parte segundo nivel*/
+nav li li{
+background: #20B2AA;
+max-height: 0;
+overflow: hidden;
+transition: all .1s;
+width: 155px;
+}
+
+nav li:hover > ul > li{
+max-height: 500px;
+overflow: visible;
+}
+
+.menu > li > ul{
+top: 100%;
+}
+
+/*menú parte tercer nivel*/
+.menu ul ul{
+left: 100%;
+top: 0;
+}
+
+/*FINALIZA LA PARTE DEL MENU*/
+
+/*DE AQUÍ EN ADELANTE ES EL CODIGO DE LA TABLA*/
+table#mitabla {border-collapse: collapse;}
+td.bajo {background-color: #ff455e;}
+td.medio {background-color: #d63e3e;}
+td.alto {background-color:#940014;}
+ 
+td.a {background-color: #243ff0;}
+td.b {background-color: #1726cf;}
+td.c {background-color: #10085;}
+
+td.aaa {background-color: #f8ff94;}
+td.bbb {background-color: #fff64f;}
+td.ccc {background-color: #ffff00;}
+
+thead.cabecera tr td {
+font-family: monospace;
+font-size: 30px;
+font-weight: bold;
+text-aling: center;
+color: #ffffff;
+padding: 15px;}
+
+tfoot.pie tr td {
+font-size: 18px;
+font-weight: bold;
+font-family: Georgia;
+padding: 2px;}
+
+tbody.cuerpo tr td {
+color: #ebebed;
+padding: 10px;
+
+td {border-style: solid;
+border-color: #cccccc;
+border-width: 2px;}
+}
+
+Derechos reservados Dacne Figueroa seccion 3 año 2021
